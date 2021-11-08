@@ -5,10 +5,7 @@ public class DecimalToBinary {
     if(decimal==0){
         return result;
     }
-
-    result=decimal%2+result;
-
-    return findBinary(decimal/2, result);
+    return result=findBinary(decimal/2, result)+decimal%2;
   }
 
 public static void main(String[] args) {
