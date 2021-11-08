@@ -13,7 +13,7 @@ public class StringReversal {
 
   public static void main(String[] args) {
     StringReversal rev = new StringReversal();
-    String str = rev.stringReversal("hello");
+    String str = rev.stringReversal("hello dev");
     System.out.println(str);
   }
 }
